@@ -16,25 +16,19 @@ const repositories = [
     description:
       "Plataforma robusta para la gestión centralizada de datos operacionales. Facilita la organización, análisis y exportación de datos en múltiples formatos para toma de decisiones informadas.",
     technologies: ["Python", "Django", "PostgreSQL", "API REST"],
-    githubUrl: "https://github.com/nataly-mmg/sistema_de_gestion_de_datos",
+    githubUrl: "https://github.com/nataly-mmg/sistema_de_gestion_de_datos.git",
   },
   {
     title: "Alke Wallet",
     description:
       "Aplicación de billetera digital diseñada para transacciones seguras y manejo de fondos. Incluye validación de usuarios, control de saldos y registro de movimientos.",
     technologies: ["Python", "API REST", "JavaScript", "Seguridad"],
-    githubUrl: "https://github.com/nataly-mmg/alke-wallet",
+    githubUrl: "https://github.com/nataly-mmg/alke-wallet_2.0.git",
   },
 ]
 
 const additionalProjects = [
-  {
-    title: "Generación de Planos en Rhino",
-    description:
-      "Automatización de generación de planos navales utilizando Rhino3D y Python para optimizar el proceso de diseño.",
-    technologies: ["Python", "Rhino3D", "RhinoCommon"],
-    inDevelopment: true,
-  },
+
   {
     title: "Grupo Océanos Website",
     description:
@@ -50,36 +44,22 @@ export function Projects() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <h2 className="text-4xl font-bold text-foreground mb-4">Proyectos</h2>
+          <div className="flex items-center gap-3 mb-8">
+          </div>
           <p className="text-muted-foreground text-lg">
             Proyectos y soluciones que demuestran mi experiencia en desarrollo web, automatización y gestión de datos.
           </p>
         </div>
 
-        {/* Featured Project */}
-        <div className="mb-24">
-          <FeaturedProject
-            title="Intranet de Gestión de Proyectos Navales"
-            description="Plataforma web desarrollada en Django para la gestión integral de proyectos navales. Incluye módulos para seguimiento de tareas, gestión documental, control de horas y generación de reportes automatizados. Diseñada para optimizar la coordinación entre equipos y centralizar la información de proyectos."
-            technologies={[
-              "Python",
-              "Django",
-              "PostgreSQL",
-              "HTML/CSS",
-              "JavaScript",
-            ]}
-            youtubeId="g9hOQoTOV70"
-            githubUrl="https://github.com/nataly-mmg"
-          />
-        </div>
 
         {/* Repositories Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-8">
-            <h3 className="text-2xl font-bold text-foreground">Repositorios Destacados</h3>
+            <h3 className="text-2xl font-bold text-foreground">Proyectos Destacados</h3>
             <Zap className="h-6 w-6 text-primary" />
           </div>
           <p className="text-muted-foreground mb-8">
-            Proyectos principales con código disponible en GitHub.
+            Principales repositorios con código disponible en GitHub.
           </p>
         </div>
 
@@ -146,11 +126,7 @@ export function Projects() {
                 <h4 className="text-lg font-semibold text-foreground flex-1">
                   {project.title}
                 </h4>
-                {project.inDevelopment && (
-                  <span className="ml-2 px-2 py-1 bg-accent/20 text-accent text-xs rounded-full font-medium">
-                    En desarrollo
-                  </span>
-                )}
+
               </div>
               <p className="text-muted-foreground text-sm mb-4 leading-relaxed">
                 {project.description}

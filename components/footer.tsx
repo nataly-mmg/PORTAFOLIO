@@ -14,7 +14,7 @@ export function Footer() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com/NatalyMartinezG"
+              href="https://github.com/nataly-mmg"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -32,7 +32,7 @@ export function Footer() {
               <Linkedin className="h-4 w-4" />
             </a>
             <a
-              href="mailto:nataly.martinez.gdo@gmail.com"
+              href="mailto:nmartinez@grupo-oceanos.cl"
               className="text-muted-foreground hover:text-primary transition-colors"
               aria-label="Email"
             >

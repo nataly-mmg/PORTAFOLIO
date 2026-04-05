@@ -38,7 +38,7 @@ export function Hero() {
               className="opacity-0 animate-fade-in mb-5 text-[14px] font-semibold uppercase tracking-[0.1em]"
               style={{ color: "#7FC8FF" }}
             >
-              Ingeniería Naval · Software · Automatización
+              PORTAFOLIO
             </p>
 
             {/* Name */}
@@ -172,7 +172,7 @@ export function Hero() {
             {/* Social icons */}
             <div className="opacity-0 animate-fade-in animation-delay-400 flex items-center gap-6">
               <a
-                href="https://github.com/NatalyMartinezG"
+                href="https://github.com/nataly-mmg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="smooth-transition"
@@ -196,7 +196,7 @@ export function Hero() {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="mailto:nataly.martinez.gdo@gmail.com"
+                href="mailto:nmartinez@grupo-oceanos.cl"
                 className="smooth-transition"
                 style={{ color: "#B8C4D3", transition: "color 0.25s ease" }}
                 onMouseEnter={(e) => ((e.currentTarget as HTMLAnchorElement).style.color = "#7FC8FF")}

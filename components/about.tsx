@@ -49,8 +49,8 @@ export function About() {
               {/* Image container with border */}
               <div className="relative rounded-2xl overflow-hidden border border-primary/30 glow-accent">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%202%20abr%202026%2C%2003_35_30%20p.m.-7xvY8ios7oAlgt0KPdPP6wxnNqVRdB.png"
-                  alt="Nataly Martínez Gallardo"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/naty-MdnkXL6csBZaqO2nuYDkJQixcC7XKm.png"
+              
                   className="w-full h-full object-cover"
                 />
               </div>

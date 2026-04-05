@@ -22,7 +22,7 @@ export function CVSection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button asChild size="lg">
-            <a href="/cv-nataly-martinez.pdf" download>
+            <a href="/cv.pdf" download="cv.pdf">
               <Download className="h-4 w-4 mr-2" />
               Descargar CV (PDF)
             </a>

@@ -5,8 +5,8 @@ const contactLinks = [
   {
     icon: Mail,
     label: "Email",
-    href: "mailto:nataly.martinez.gdo@gmail.com",
-    value: "nataly.martinez.gdo@gmail.com",
+    href: "mailto:nmartinez@grupo-oceanos.cl",
+    value: "nmartinez@grupo-oceanos.cl",
   },
   {
     icon: Linkedin,
@@ -17,14 +17,14 @@ const contactLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/NatalyMartinezG",
-    value: "github.com/NatalyMartinezG",
+    href: "https://github.com/nataly-mmg",
+    value: "github.com/nataly-mmg",
   },
   {
     icon: Globe,
     label: "Web",
-    href: "https://grupooceanos.cl",
-    value: "grupooceanos.cl",
+    href: "https://grupo-oceanos.cl",
+    value: "grupo-oceanos.cl",
   },
 ]
 
@@ -65,7 +65,7 @@ export function Contact() {
 
         <div className="text-center">
           <Button asChild size="lg" className="smooth-transition">
-            <a href="mailto:nataly.martinez.gdo@gmail.com">
+            <a href="mailto:nmartinez@grupo-oceanos.cl">
               <Mail className="h-5 w-5 mr-2" />
               Enviar mensaje directo
             </a>
